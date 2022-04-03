@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import {BiSearchAlt2} from "react-icons/bi"
 
 const Header = () =>{
     return (
@@ -11,6 +12,11 @@ const Header = () =>{
                 height={40}
                 width={40}
                  />
+                <div className="flex items-center px-2 ml-2 space-x-2 text-gray-500 bg-gray-100 rounded-full">
+                <BiSearchAlt2 size = {20} />
+                    <input className="hidden bg-transparent lg:inline-flex focus:outline-none" type="text" placeholder="Search Facebook" />
+                    
+                </div>
             </div>
             
             
