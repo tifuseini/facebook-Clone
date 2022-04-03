@@ -44,7 +44,17 @@ const Header = () =>{
                 </div>       
             </div>
 
+                {/* Right */}
+
+            <div className="flex items-center justify-end space-x-2 min-w-fit">
+                <Image
+                    src="https://upload.wikimedia.org/wikipedia/en/0/04/Facebook_f_logo_%282021%29.svg"
+                    height={40}
+                    width={40}
+                />
+                <p className="hidden max-w-xs p-3 text-sm font-semibold xl:inline-flex whitespace-nowrap">Tahiru Fuseini</p>
                 
+            </div>
             
             
         </div>
